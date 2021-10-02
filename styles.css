@@ -51,6 +51,10 @@ body {
   text-decoration: none;
 }
 
+.site-nav .page {
+  color: var(--accent-color);
+}
+
 .link:hover,
 .link:focus {
   color: var(--accent-color);
@@ -158,4 +162,37 @@ body {
 
 .adress {
   color: var(--primary-white-color);
+}
+
+/*Portfolio*/
+
+.portfolio-botton {
+  background-color: #f5f4fa;
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.portfolio-botton:hover,
+.portfolio-botton:focus {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+  cursor: pointer;
+}
+
+.client {
+  color: var(--title-text-color);
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.project {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
 }
