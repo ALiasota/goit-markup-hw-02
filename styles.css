@@ -25,6 +25,7 @@ body {
 
 .logo {
   text-decoration: none;
+  font-style: normal;
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -41,7 +42,7 @@ body {
 }
 
 /*Nav*/
-.site-nav .link {
+.site-nav .link-head {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -50,8 +51,8 @@ body {
   text-decoration: none;
 }
 
-.site-nav .link:hover,
-.site-nav .link:focus {
+.link:hover,
+.link:focus {
   color: var(--accent-color);
 }
 
@@ -70,7 +71,91 @@ body {
   text-decoration: none;
 }
 
-.contsct-header:hover,
-.contsct-header:focus {
-  color: var(--accent-color);
+/*Hero*/
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--title-text-color);
+}
+
+.hero-button {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+/*quality*/
+
+.transparent {
+  color: transparent;
+}
+
+.quality-title {
+  color: var(--title-text-color);
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+/*work*/
+
+.section-head {
+  color: var(--title-text-color);
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/*team*/
+
+.team {
+  background-color: #f5f4fa;
+}
+
+.member-name {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.member-name {
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+/*footer*/
+
+.footer {
+  background-color: #2f303a;
+}
+
+.logo-2f {
+  color: var(--primary-white-color);
+}
+
+.contsct-footer {
+  text-decoration: none;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.adress {
+  color: var(--primary-white-color);
 }
