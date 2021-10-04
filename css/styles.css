@@ -108,7 +108,7 @@ body {
 /*quality*/
 
 .transparent {
-  color: transparent;
+  display: none;
 }
 
 .quality-title {
