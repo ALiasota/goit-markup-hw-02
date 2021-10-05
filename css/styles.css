@@ -160,6 +160,10 @@ body {
   color: var(--primary-white-color);
 }
 
+.contsct-footer.adress {
+  color: var(--primary-white-color);
+}
+
 .contsct-footer {
   text-decoration: none;
   font-style: normal;
@@ -167,10 +171,6 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-}
-
-.adress {
-  color: var(--primary-white-color);
 }
 
 /*Portfolio*/
